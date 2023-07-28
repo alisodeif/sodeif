@@ -1,0 +1,169 @@
+#body{
+    overflow: hidden;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    z-index: 105;
+}
+/*a modal part*/
+#modal{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    transform: translateY(1000px);
+    transition: all 0.5 linear;
+    z-index: 105;
+    background-image: url("input.image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*a oerlay part*/
+#overlay{
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 1000px;
+    z-index: 100;
+    visibility: hidden;
+}
+/* a modal2 part*/
+#modal2{
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 250px;
+    width: 37%;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    transform: translateY(1000px);
+    transition: all 0.5 linear;
+    z-index: 105;
+    background-image: url("input.image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*a over lay part*/
+#overlay2{
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 1000px;
+    z-index: 100;
+    visibility: hidden;
+}
+/* a button style part*/
+.input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid  #ddd;
+    border-radius: 3px;
+    position: relative;
+    top: 10px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /* a button hover part*/
+  .input:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  .input3 {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid  #ddd;
+    border-radius: 3px;
+    position: relative;
+    top: 10px;
+    background-color: #d0d0d0;
+    color: #ffffff;
+  }
+  /* a button hover part*/
+  .input3:hover {
+    background-color: #cecbc4;
+    color: black;
+    
+  }
+  /* a tabel style part*/
+  table, td, th {
+    border: 1px solid #90a4ae;
+    border-radius: 5px;
+    padding: 5px;
+    /*border-collapse: collapse;*/
+  }
+  td, th {
+    width: 100px;
+    text-align: center;
+  }
+  .top{
+    position: relative;
+    top: 45px;
+  }
+  /* a pay button style*/
+  .input2 {
+    height: 30px;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+    background-color: #10ce3d;
+    position: relative;
+    top: 5px;
+  }
+  /* a color tabel part */
+  .tr1{
+    background-color: #907f7e;
+    border-radius: 3px;
+  }
+  .tr2{
+    background-color: #73c007;
+    border-radius: 3px;
+  }
+  /* a nav style part*/
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
